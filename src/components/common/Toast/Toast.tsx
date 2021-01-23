@@ -6,18 +6,18 @@ import * as styles from "./Toast.scss";
 
 export function infoToast(message: string) {
   return toast(<div>{message}</div>, {
-    className: cx(styles.helioToast, styles.info)
+    className: cx(styles.toast, styles.info),
   });
 }
 
 export function errorToast(message: string) {
   return toast(<div>{message}</div>, {
-    className: cx(styles.helioToast, styles.error)
+    className: cx(styles.toast, styles.error),
   });
 }
 
 export function warningToast(message: string) {
   return toast(<div>{message}</div>, {
-    className: cx(styles.helioToast, styles.warning)
+    className: cx(styles.toast, styles.warning),
   });
 }

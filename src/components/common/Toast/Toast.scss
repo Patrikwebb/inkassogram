@@ -1,4 +1,4 @@
-.helioToast {
+.toast {
   border-radius: rem(4);
   text-align: center;
 
@@ -14,7 +14,7 @@
 
   &.warning {
     background-color: $warning;
-    color: $black;
+    color: $white;
   }
 
   // Has to use button here to be able to set styles into react-tostify component

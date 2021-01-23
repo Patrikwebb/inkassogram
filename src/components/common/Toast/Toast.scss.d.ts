@@ -21,7 +21,7 @@ export const pb30: string;
 export const pb40: string;
 export const textAlignCenter: string;
 export const letterSpacing15: string;
-export const helioToast: string;
+export const toast: string;
 export const info: string;
 export const error: string;
 export const warning: string;
