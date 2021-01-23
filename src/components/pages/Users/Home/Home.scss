@@ -1,4 +1,21 @@
 .wrapper {
   width: 100%;
-  height: 65vh;
+}
+
+.inkassogramImage {
+  background-image: url("../../../../assets/images/inkassogram.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.info {
+  text-align: center;
+}
+
+.bankId {
+  background: $primary;
+  color: $white;
+
+  text-align: center;
 }

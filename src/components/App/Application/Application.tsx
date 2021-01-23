@@ -59,7 +59,7 @@ function Application() {
 
   return (
     <Switch>
-      <Route path="/home">
+      <Route path="/hem">
         <Container />
       </Route>
       <Route path="/">

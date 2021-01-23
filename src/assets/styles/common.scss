@@ -1,0 +1,79 @@
+// Fonts
+.text40 {
+  @include Text40;
+}
+.text30 {
+  @include Text30;
+}
+.text20 {
+  @include Text20;
+}
+.text17 {
+  @include Text17;
+}
+
+.lineHeight20 {
+  line-height: rem(20);
+}
+
+// Colors
+.primary {
+  color: $primary;
+}
+.tertiary {
+  color: $tertiary;
+}
+.grey {
+  color: $grey;
+}
+.white {
+  color: $white;
+}
+
+// Backgrounds
+.backgroundSecoundary {
+  background: $secondary;
+}
+
+// Margin & Paddings
+.mt-10 {
+  margin-top: rem(10);
+}
+.mb-20 {
+  margin-bottom: rem(20);
+}
+
+.pr-30 {
+  padding-right: rem(30);
+}
+.pl-30 {
+  padding-left: rem(30);
+}
+
+.pt-10 {
+  padding-top: rem(10);
+}
+.pt-20 {
+  padding-top: rem(20);
+}
+.pt-40 {
+  padding-top: rem(40);
+}
+.pt-64 {
+  padding-top: rem(64);
+}
+.pb-30 {
+  padding-bottom: rem(30);
+}
+.pb-40 {
+  padding-bottom: rem(40);
+}
+
+// Aligment
+.textAlignCenter {
+  text-align: center;
+}
+
+.letterSpacing15 {
+  letter-spacing: 1.5px;
+}

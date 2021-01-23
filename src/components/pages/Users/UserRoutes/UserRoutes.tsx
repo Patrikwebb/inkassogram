@@ -11,14 +11,14 @@ function UserRoutes() {
     <>
       <ScrollToTop>
         <Switch>
-          <Route exact path="/home">
+          <Route exact path="/hem">
             <Home />
           </Route>
-          <Route exact path="/about">
+          <Route exact path="/om-oss">
             <AboutUs />
           </Route>
           <Route exact path="/">
-            <Redirect to="/home" />
+            <Redirect to="/hem" />
           </Route>
           <Route path="/">
             <Redirect to="/" />

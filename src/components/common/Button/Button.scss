@@ -1,4 +1,6 @@
 .button {
+  @include Text20;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,13 +12,16 @@
 
   border: none;
   border-radius: 5rem;
-  padding: 1.2rem 2.8rem;
 
   background: $primary;
   color: $white;
 
-  font-size: 1.6rem;
-  font-weight: 500;
+  padding-bottom: 8.2px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+
+  font-weight: 400;
   text-decoration: none;
 
   transition: ease 0.2s;
@@ -50,13 +55,14 @@
 
   // Types
   &.primary {
-    background-color: $primary;
+    background-color: $success;
     color: $white;
   }
 
   &.secondary {
     background-color: $white;
-    color: $black;
+    color: $success;
+    border: 2px solid $greenBorder;
   }
 
   // SIZES

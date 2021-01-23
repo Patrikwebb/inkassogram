@@ -15,15 +15,15 @@ interface NavigationUrls {
   to: string;
 }
 
-const homeUrl = "/home";
+const homeUrl = "/hem";
 const urls: NavigationUrls[] = [
   {
-    name: "Home",
-    to: "/home",
+    name: "Hem",
+    to: "/hem",
   },
   {
-    name: "About",
-    to: "/about",
+    name: "Om oss",
+    to: "/om-oss",
   },
 ];
 

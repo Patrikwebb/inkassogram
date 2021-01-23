@@ -3,6 +3,18 @@
   top: 0;
   z-index: 900;
 
+  &.scrollAbove90Px {
+    .header {
+      background: $white;
+    }
+
+    .burger span,
+    .burger span:after,
+    .burger span:before {
+      background: $white;
+    }
+  }
+
   &.scrollBelow90Px {
     .header {
       background: $white;
@@ -40,9 +52,6 @@
     padding: 0 1.5rem;
 
     transition: ease 0.2s;
-
-    font-size: 1.6rem;
-    font-weight: 500;
 
     &:hover {
       opacity: 0.7;
@@ -208,7 +217,7 @@
 
 .burger.clicked span:before,
 .burger.clicked span:after {
-  background-color: $primary;
+  background-color: $white;
   width: rem(30);
 }
 
@@ -254,8 +263,9 @@
   }
 
   .ulMenu {
-    padding-top: rem(100);
+    padding-top: rem(121);
     list-style: none;
+    width: 100%;
 
     li {
       padding-bottom: rem(24);
@@ -266,6 +276,14 @@
       -webkit-transform: translateX(0px);
 
       .menuLink {
+        @include Text16;
+
+        line-height: 2;
+        font-weight: 500;
+
+        display: flex;
+        justify-content: center;
+
         color: $white;
         text-decoration: none;
 
